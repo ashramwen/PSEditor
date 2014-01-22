@@ -51,7 +51,7 @@ http://ashramwen.github.io/PSEditor/releases/
 $('#strContent').PSEditor({
   getImgUrl : 'testjson2'
 });
-<script>
+</script>
 ```
 
 ## Option Parameter
