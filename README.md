@@ -47,5 +47,6 @@ $('#strContent').PSEditor({
 
 ## Option Parameter
 * getImgUrl
-Type: String
-A string containing the URL to which the request img list is sent.
+
+  Type: String
+  A string containing the URL to which the request img list is sent.
