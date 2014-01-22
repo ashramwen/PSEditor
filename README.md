@@ -41,17 +41,17 @@ http://ashramwen.github.io/PSEditor/releases/
 
 ## Usage
 
+Html:
 ```html
 <div id="strContent">
   ...
 </div>
 ```
+JavaScript:
 ```javascript
-<script>
 $('#strContent').PSEditor({
   getImgUrl : 'testjson2'
 });
-</script>
 ```
 
 ## Option Parameter
