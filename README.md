@@ -1,0 +1,4 @@
+PSEditor
+========
+
+jQuery Plugin
