@@ -2,17 +2,21 @@
 
 PSEditor is an open source jQuery plugin, which provides a WYSIWYG HTML editor that can be easily added into any web site, and based on CLEditor.
 
-## Demo
-[Demo](http://ashramwen.github.io/PSEditor/)
+For **demo** see:  
+http://ashramwen.github.io/PSEditor/
+
+For **downloads**, see:  
+http://ashramwen.github.io/PSEditor/releases/
+
 
 ## Required
 
 * [jQuery](http://jquery.com/) : 1.10.1+
 * [jQuery UI](http://jqueryui.com/) : 1.9.2+
 * [CLEditor](http://premiumsoftware.net/cleditor/) :1.4.4+
-* jquery.pseditor.css - Style Sheet (source)
 * jquery.cleditor.plugin.js - Cleditor Plugin (source)
 * jquery.pseditor.min.js - jQuery Plugin (minified)
+* jquery.pseditor.css - Style Sheet (source)
 * images/buttons.gif - CLEditor Toolbar Button Image Strip
 * images/toolbar.gif - CLEditor Toolbar Background Image
 * images/btn_cancel.png - Cancel Button Image
