@@ -42,7 +42,7 @@ http://ashramwen.github.io/PSEditor/releases/
 ## Usage
 
 ```html
-<div id="strContent"></div>
+<div id="strContent">...</div>
 ```
 ```javascript
 <script>
