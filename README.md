@@ -53,6 +53,6 @@ $('#strContent').PSEditor({
 ```
 
 ## Option Parameter
-* getImgUrl  
+* **getImgUrl**  
   Type: String  
-  A string containing the URL to which the request img list is sent.
+  A string containing the URL to which the request **Image List** is sent, like [this](https://github.com/ashramwen/PSEditor/blob/master/testjson2)
