@@ -5,8 +5,13 @@ $(function() {
 		btnPause : '.pauseButton'
 	});
 
-	$('#strContent').PSEditor({
+	var editors = $('#strContent').PSEditor({
 		getImgUrl : 'testjson2'
+	});
+	
+	$("#getdata").click(function(){
+		console.log(JSON.stringify(editors.Get(0)));
+		console.log(JSON.stringify(editors.GetAll()));
 	});
 });
 
