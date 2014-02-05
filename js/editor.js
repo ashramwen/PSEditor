@@ -5,6 +5,12 @@ $(function() {
 		btnPause : '.pauseButton'
 	});
 
+	$('[data-type="AdArea"]').hover(function() {
+		$(this).find('[data-type="AdImage"]:first').css("visibility", "visible");
+	}, function() {
+		$(this).find('[data-type="AdImage"]:first').css("visibility", "hidden");
+	});
+
 	var editors = $('#strContent').PSEditor({
 		getImgUrl : 'testjson2'
 	});
