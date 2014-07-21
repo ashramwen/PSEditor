@@ -14,10 +14,20 @@ $(function() {
 	var editors = $('#strContent').PSEditor({
 		getImgUrl : 'testjson2'
 	});
-	
-	$("#getdata").click(function(){
+
+	$("#getdata").click(function() {
 		console.log(JSON.stringify(editors.Get(0)));
 		console.log(JSON.stringify(editors.GetAll()));
 	});
+
+	$('#pattern div').click(function() {
+		$('#pattern div').removeClass('selImg');
+		$(this).addClass('selImg');
+		$('#strContent .model').hide();
+		$('#' + $(this).data('model')).show();
+	});
+	
+	$('#model2').hide();
+	$('#model3').hide();
 });
 

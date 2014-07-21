@@ -1,12 +1,41 @@
 .AD220x160 {
-	width:220px;
-	height:160px;
+	width: 220px;
+	height: 160px;
 }
 .ADbanner img {
-	width:201px;
-	height:201px;
+	width: 201px;
+	height: 201px;
+}
+.clear {
+	clear: both;
 }
 #strContent {
-	width: 770px;
+	width: 940px;
 	border: 1px solid #999999;
+	float: left;
+	margin-bottom:40px;
+}
+
+#pattern {
+	float: left;
+	margin-left: 20px;
+	border: 1px solid #999999;
+}
+
+#pattern div {
+	cursor: pointer;
+	margin: 5px;
+	padding: 3px;
+	border: 1px solid transparent;
+}
+#pattern .selImg {
+	border: 1px solid #33B5E5;
+}
+
+.left {
+	float:left;
+	margin-left:10px;
+}
+.hide {
+	display: none;
 }
