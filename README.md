@@ -41,39 +41,18 @@ http://ashramwen.github.io/PSEditor/releases/
 
 ## Usage
 
-Html:
 ```html
-<div id="strContent">
-  ...
-</div>
+<div id="strContent"></div>
 ```
-JavaScript:
 ```javascript
+<script>
 $('#strContent').PSEditor({
   getImgUrl : 'testjson2'
 });
+<script>
 ```
 
 ## Option Parameter
 * **getImgUrl**  
   Type: String  
   A string containing the URL to which the request **Image List** is sent, like [this](https://github.com/ashramwen/PSEditor/blob/master/testjson2) or [this](https://github.com/ashramwen/PSEditor/blob/master/testjson)
-
-## Public Methods
-* **Get(index)**  
-  Get data from the set of matched elements to the one at the specified index.
-```javascript
-var editors = $('#strContent').PSEditor({
-		getImgUrl : 'testjson2'
-	});
-console.log(JSON.stringify(editors.Get(0)));
-```
-
-* **GetAll()**  
-  Get data from all of the set of elements.
-```javascript
-var editors = $('#strContent').PSEditor({
-		getImgUrl : 'testjson2'
-	});
-console.log(JSON.stringify(editors.GetAll()));
-```
