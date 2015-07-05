@@ -1,5 +1,5 @@
 $(function() {
-	$('.slideshow-container').dacSlideshow({
+	$('[data-type="BannerArea"]').dacSlideshow({
 		btnPrev : '.slideshow-prev',
 		btnNext : '.slideshow-next',
 		btnPause : '.pauseButton'
@@ -19,6 +19,7 @@ $(function() {
 		console.log(JSON.stringify(editors.Get(0)));
 		console.log(JSON.stringify(editors.GetAll()));
 	});
+<<<<<<< HEAD
 
 	$('#pattern div').click(function() {
 		$('#pattern div').removeClass('selImg');
@@ -29,5 +30,7 @@ $(function() {
 	
 	$('#model2').hide();
 	$('#model3').hide();
+=======
+>>>>>>> f4aa4adc5c57b3b16b2908e5844150dd3f9ef691
 });
 
